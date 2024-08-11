@@ -1,0 +1,14 @@
+
+    #escribe tu código abajo de esta línea
+
+print('Te diré cuántos lustros has vivido hasta ahora')
+
+#Entradas
+print('¿En qué año naciste?')
+AñoDeNacimiento = int(input())
+
+print('Dame el año actual:')
+AñoActual = int(input())
+
+#Salida
+print('Has vivido ' + str((AñoActual - AñoDeNacimiento) / 5) + ' lustros')
