@@ -1,0 +1,9 @@
+    #escribe tu código abajo de esta línea
+
+print('Hola! ¿Cuántos años tienes?')
+edad = int(input())
+
+print('Dame el año actual:')
+año = int(input())
+
+print('Cumplirás 100 años en el año: ' + str((año - edad) + 100))
