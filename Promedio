@@ -1,0 +1,16 @@
+    #escribe tu código abajo de esta línea
+    
+print('Te ayudaré a obtener el promedio de la calificación de tus materias')
+print('Inserta la calificación de tu primera materia:')
+materia1 = float(input())
+
+print('Inserta la calificación de tu segunda materia:')
+materia2 = float(input())
+
+print('Inserta la calificación de tu tercera materia:')
+materia3 = float(input())
+
+print('Inserta la calificación de tu cuarta materia:')
+materia4 = float(input())
+
+print('Tu promedio es de: ' + str((materia1 + materia2 + materia3 + materia4)/4))
