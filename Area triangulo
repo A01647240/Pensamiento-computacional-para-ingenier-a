@@ -1,0 +1,11 @@
+    #escribe tu código abajo de esta línea
+
+
+print('Te ayudo a obtener el área de un triángulo')
+print('Escribe la base:')    #Inserta el valor de la base
+Base = float(input())
+
+print('Escribe la altura:')    #inserta el valor de la altura
+Altura = float(input())
+
+print('el área de tu triángulo es: ' + str((Base * Altura) / 2))
